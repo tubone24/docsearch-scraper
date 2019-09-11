@@ -135,7 +135,7 @@ class ConfigLoader:
             nb_hit_updater = NbHitsUpdater(self.config_file,
                                            self.config_content,
                                            previous_nb_hits, nb_hits)
-            nb_hit_updater.update(self.update_nb_hits)
+            # nb_hit_updater.update(self.update_nb_hits)
 
     def get_extra_facets(self):
         return UrlsParser.get_extra_facets(self.start_urls)

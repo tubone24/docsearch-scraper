@@ -171,3 +171,6 @@ def run():
             print_error("Command \"" + sys.argv[1] + "\" not found")
 
     exit(1)
+
+    if __name__ == "__main__":
+        run()

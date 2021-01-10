@@ -137,7 +137,7 @@ def find_command(name, cmds):
         if cmd.get_name().find(name) == 0:
             return cmd
 
-    return None
+    return RunConfig()
 
 
 def run():
